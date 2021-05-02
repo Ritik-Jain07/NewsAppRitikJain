@@ -73,7 +73,14 @@
         tools:text="2019-10-09"
         />
 
-
+    <ImageView
+        android:id="@+id/favourites"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_bookmark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cardView"
+        android:paddingEnd="5dp" />
 
 
 

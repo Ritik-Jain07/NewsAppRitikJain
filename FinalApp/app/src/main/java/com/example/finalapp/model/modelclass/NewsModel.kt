@@ -1,7 +1,6 @@
-package com.example.finalapp.model
+package com.example.finalapp.model.modelclass
 
 import com.google.gson.annotations.SerializedName
-import retrofit2.http.Url
 
 data class NewsModel(
     @SerializedName("title")
@@ -15,6 +14,8 @@ data class NewsModel(
     @SerializedName("source")
     var source:String,
     @SerializedName("published_at")
-    var published:String
+    var published:String,
+
+    var isFav:Boolean
 
 )

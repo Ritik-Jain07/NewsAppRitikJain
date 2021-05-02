@@ -79,8 +79,9 @@
         android:id="@+id/favourites"
         android:layout_width="wrap_content"
         android:layout_height="20dp"
-        android:src="@drawable/ic_bookmark"
+        android:src="@drawable/ic_baseline_bookmarks_24"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/cardView"/>
+        app:layout_constraintTop_toTopOf="@+id/cardView"
+        android:paddingEnd="5dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
